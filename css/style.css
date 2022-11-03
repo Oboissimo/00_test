@@ -8,6 +8,8 @@ body {
     /* width: 600px; */ /* 幅を 600px に */
     /* margin: 0 auto; */ /* 左右の余白を auto にして、左右中央揃えに */
     box-shadow: 0 0 20px rgba(0, 0, 0, .9); /* 影をつける */
+    background-color: #fff; /* 背景色を白に */
+    border: 1px solid #888;
     padding: 0;
 }
 header {
@@ -21,16 +23,8 @@ header h1 {
     font-weight: normal; /* 文字の太さを太くしない */
     text-align: center; /* テキストを中央揃えに */
 }
-.content {
-    background-color: #fff; /* 背景色を白に */
-    /* padding: 20px; */ /* 要素内余白を20px */
-    border: 1px solid #aaa;
-}
-.preface img {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+.preface p {
+    margin-top: 20px;
 }
 .preface p span {
     font-weight: bold;
@@ -39,7 +33,7 @@ header h1 {
 .preface {
     text-align: center; /* テキストを中央揃えに */
     font-size: 16px; /* 文字の大きさを 24px に */
-    margin: 0;
+    margin: 5px;
 }
 .information h3 {
     font-size: 16px;
@@ -56,6 +50,14 @@ header h1 {
 }
 .information li span {
     text-decoration: line-through;
+}
+hr {
+    border-width: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+footer {
+    padding: 6px;
 }
 footer h2 {
     text-align: center; /* テキストを中央揃えに */
