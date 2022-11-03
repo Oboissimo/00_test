@@ -1,42 +1,64 @@
-@import url(sanitize.css);
+body {
+    background-color: #f0f0f0; /* 背景色をグレーに */
+    padding: 20px; /* 要素内の余白を 10px に */
+    font-size: 14px; /* 文字の大きさを 14px に */
+    color: #333; /* 文字の色を、濃いめのグレーに */
+}
+.container {
+    /* width: 600px; */ /* 幅を 600px に */
+    /* margin: 0 auto; */ /* 左右の余白を auto にして、左右中央揃えに */
+    box-shadow: 0 0 20px rgba(0, 0, 0, .9); /* 影をつける */
+    padding: 0;
+}
+header {
+    background-color: #422814; /* 背景色を茶色に */
+    padding: 10px; /* 要素内余白を 10px に */
+    color: #fff; /* 文字色を白に */
+}
+header h1 {
+    margin: 0; /* 余白をなくす */
+    font-size: 24px; /* 文字の大きさを 24px に */
+    font-weight: normal; /* 文字の太さを太くしない */
+    text-align: center; /* テキストを中央揃えに */
+}
 .content {
-    text-align: center;
-    background-color: rgb(56, 87, 35);
-    width: 600px;
-    margin: 10px auto;
-    border: 8px solid olive;
-    padding: 20px;
+    background-color: #fff; /* 背景色を白に */
+    /* padding: 20px; */ /* 要素内余白を20px */
+    border: 1px solid #aaa;
 }
-h1 {
-    font-size: 28px;
+.preface img {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.preface p span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.preface {
+    text-align: center; /* テキストを中央揃えに */
+    font-size: 16px; /* 文字の大きさを 24px に */
     margin: 0;
-    color: yellow;
 }
-h2 {
-    font-size: 24px;
-    margin: 0;
-    color: aqua;
+.information h3 {
+    font-size: 16px;
+    margin: 0; /* 余白はなくす */
+    background-color: #E6E4DD; /* 背景色を薄い茶色に */
+    padding: 5px 10px; /* 要素内の余白を上下5px、左右10px に */
 }
-h3 {
-    font-size: 20px;
-    margin: 0;
-    color: fuchsia;
+.information ul {
+    list-style-type: disc;
+    margin: 0; /* 余白をなくす */
 }
-h4 {
-    font-size: 18px;
-    margin: 0;
-    color: lime;
+.information li {
+    padding: 0 10px; /* 要素内余白を上下0px、左右10px に */
 }
-h5 {
-    font-size: 18px;
-    margin: 0;
-    color: gold;
+.information li span {
+    text-decoration: line-through;
 }
-p {
+footer h2 {
+    text-align: center; /* テキストを中央揃えに */
     font-size: 16px;
     margin: 0;
-    color: white;
-}
-a {
-    background-color: silver;
 }
